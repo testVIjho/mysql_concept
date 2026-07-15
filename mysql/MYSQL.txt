@@ -1,0 +1,11 @@
+Intermediate Questions
+Nth highest salary query ezhudhunga.
+Duplicate records find panna query sollunga.
+Duplicate records remove panna epdi pannuveenga?
+Employee table-la department-wise highest salary edukkanum na query enna?
+Row Number, Rank concept theriyuma? (MySQL 8+)
+CTE (Common Table Expression) use pannirukeengala?
+Stored Procedure create pannirukeengala?
+Function and Procedure difference enna?
+Trigger na enna? Real-time use case sollunga.
+View na enna? Normal table-kum view-kum difference enna?
