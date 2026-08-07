@@ -9,3 +9,74 @@ Stored Procedure create pannirukeengala?
 Function and Procedure difference enna?
 Trigger na enna? Real-time use case sollunga.
 View na enna? Normal table-kum view-kum difference enna?
+Last 5 records fetch panna query?
+Group-wise highest salary edukkura query?
+Oru table-la irundhu innoru table-la illaadha records edukkura query?
+
+
+SELECT *
+FROM employee e
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM department d
+    WHERE e.dept_id = d.dept_id
+);
+
+Joins Related
+Self Join na enna? Real-time example sollunga.
+Cross Join use pannirukkingala?
+Join performance improve panna enna pannuvenga?
+
+Performance Tuning Questions
+Index na enna?
+Clustered and Non-Clustered Index concept explain pannunga.
+Query slow-a irundha epdi identify pannuveenga?
+EXPLAIN command use pannirukeengala?
+Composite Index eppo use pannuveenga?
+Index irundhum query slow-na reason enna irukkalam?
+Full Table Scan na enna?
+Joins optimize panna enna pannuveenga?
+Over-indexing na enna problem?
+Full Table Scan na enna?
+
+Database Design Questions
+
+Normalization na enna?
+1NF, 2NF, 3NF explain pannunga.
+Denormalization eppo use pannuveenga?
+One-to-One, One-to-Many, Many-to-Many relationship explain pannunga.
+
+Stored Procedure / Function
+Stored Procedure create pannirukkingala?
+Procedure vs Function difference?
+Cursor use pannirukkingala?
+Dynamic SQL execute panna eppadi?
+
+Transaction Questions
+
+Transaction na enna?
+COMMIT, ROLLBACK use enna?
+ACID properties explain pannunga.
+Deadlock na enna? Adha epdi handle pannuveenga
+Isolation Levels enna enna?
+
+
+
+Scenario-Based Questions (3 Years Experience-ku Important)
+
+Production-la slow query issue vandha epdi troubleshoot pannuveenga?
+1 crore records irukkura table-la query performance improve panna enna pannuveenga?
+Data migration pannirukeengala? Challenges enna?
+Backup and restore process pathi sollunga.
+Daily work-la MySQL-la enna tasks handle pannureenga?
+Database migration pannirukkingala?
+Backup & Restore process pathi theriyuma?
+10 million+ records irundha query performance improve panna enna steps eduppeenga?
+
+Second Highest Salary:
+Duplicate Records Find:
+
+SELECT name, COUNT(*)
+FROM employee
+GROUP BY name
+HAVING COUNT(*) > 1;
