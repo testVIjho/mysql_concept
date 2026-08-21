@@ -1,0 +1,35 @@
+create a new label forward and to move the mail to label
+
+
+சரி! உங்களுக்கான requirement:
+
+ஒரு particular From address-லிருந்து வரும் மெயில்கள், Gmail inbox-ல் வரும் போது automatic-ஆ அந்த predefined label-க்கு சேர்க்கப்பட வேண்டும்.
+
+இதற்கு தேவையான step-by-step process இங்கே:
+
+Step 1: Gmail-ல் Label உருவாக்குதல் (Already செய்திருப்பீர்கள் என்றால் skip செய்யலாம்)
+
+Gmail-ஐ open பண்ணவும்.
+
+வலது பக்கத்தில் கீழே இருக்கும் Labels பகுதியில் சென்று “Create new label”-ஐ கிளிக் பண்ணவும்.
+
+உங்கள் label-க்கு ஒரு பெயர் தட்டச்சு செய்யவும். (உதா: “ImportantSender”)
+
+Create அழுத்தவும்.
+
+Step 2: Filter உருவாக்கி particular sender-க்கு label auto apply பண்ணுதல்
+
+Gmail inbox-ல் மேலே இருக்கும் Search mail bar-ல் right side இருக்கும் filter icon (funnel shape)-ஐ கிளிக் பண்ணவும்.
+
+வரும் பட்டியில், From field-ல் அந்த particular sender email address-ஐ type பண்ணவும்.
+உதா: example@domain.com
+
+கீழே உள்ள Create filter link-ஐ கிளிக் பண்ணவும்.
+
+அடுத்து வரும் பட்டியில், என்ன செய்யவேண்டும் என்று தேர்வு செய்யலாம்:
+
+Apply the label: இந்த option-ஐ check பண்ணி, உங்களது உருவாக்கிய label-ஐ dropdown-ல் இருந்து select பண்ணவும்.
+
+(Optional) “Also apply filter to matching conversations” என்பதையும் கிளிக் பண்ணலாம், இதனால் முன்னாடி வந்த மெயில்களுக்கும் label சேரும்.
+
+பிறகு கீழே உள்ள Create filter button-ஐ அழுத்தவும்.
