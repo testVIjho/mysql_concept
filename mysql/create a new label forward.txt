@@ -33,3 +33,13 @@ Apply the label: இந்த option-ஐ check பண்ணி, உங்கள�
 (Optional) “Also apply filter to matching conversations” என்பதையும் கிளிக் பண்ணலாம், இதனால் முன்னாடி வந்த மெயில்களுக்கும் label சேரும்.
 
 பிறகு கீழே உள்ள Create filter button-ஐ அழுத்தவும்.
+
+
+inbox layum mail copy achuna intha step follow pannanum
+
+Gmail → Settings ⚙️ → See all settings
+Filters and Blocked Addresses → unga existing filter-a Edit
+Andha filter-la “Skip the Inbox (Archive it)” ✅ select pannunga.
+Also apply filter to --->last checkbox check pannanum
+“Apply the label” → unga label-a select pannunga.
+Update filter click pannunga.
